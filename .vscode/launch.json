@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "funcao2",
+      "request": "launch",
+      "mainClass": "section_7.aula68_funcoes_sintaxe.funcao2",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
+      "name": "Funcao1",
+      "request": "launch",
+      "mainClass": "section_7.aula66_funcoes_string.Funcao1",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
       "name": "Ofor",
       "request": "launch",
       "mainClass": "section_6.aula57.Ofor",

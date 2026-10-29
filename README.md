@@ -2,6 +2,9 @@
 
 Repositório com os exercícios e materiais do curso **Java COMPLETO** (Java e OO, UML, JDBC, JavaFX e mais), do professor **Nelio Alves** ([educandoweb.com.br](http://educandoweb.com.br)).
 
+<img width="800" height="470" alt="image" src="https://github.com/user-attachments/assets/97212060-274a-4461-b551-04ff0c170f31" />
+
+
 ## Organização
 
 O código fica em `src/`, separado por seção do curso e por aula:
@@ -60,9 +63,17 @@ Os arquivos compilados (`.class`) são gerados automaticamente em `bin/`, espelh
 
 ## Como rodar
 
+<<<<<<< HEAD
 Projeto Java simples do VS Code (extensão _Extension Pack for Java_):
+=======
+Projeto Java simples do VS Code (extensão *Extension Pack for Java*):
+>>>>>>> e10b541bf1b3854f00fed329bf8cbd9aabf2ea41
 
 1. Abra a pasta no VS Code.
 2. Abra o arquivo `.java` da aula e clique em **Run** acima do `main` (ou `F5` para depurar).
 
 As configurações do projeto ficam em `.vscode/settings.json`.
+<<<<<<< HEAD
+=======
+
+>>>>>>> e10b541bf1b3854f00fed329bf8cbd9aabf2ea41
