@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "aula71",
+      "request": "launch",
+      "mainClass": "section_8.aula71_problema_sem_orientacao_a_objetos.aula71",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
       "name": "funcao2",
       "request": "launch",
       "mainClass": "section_7.aula68_funcoes_sintaxe.funcao2",

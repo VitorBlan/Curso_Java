@@ -4,38 +4,33 @@ import java.util.Scanner;
 
 public class funcao2 {
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Digite 2 numero:");
+
+        int numero1 = sc.nextInt(); /*digitar o numero 1 */
+        int numero2 = sc.nextInt(); /* digitar o numero 2 */
     
-    Scanner sc= new Scanner(System.in);
+        /*variavel */
+        int maiorNumero = (max(numero1, numero2));
 
-    System.out.println("Enter there nunbers:");
+        System.out.println("Higher = " + maiorNumero);
 
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int c = sc.nextInt();
+        sc.close();
+    }
+                        /*             */
+    public static int max(int a, int b) {
+        int maior;
 
-    int higher = max(a,b,c);
-
-    showResult(higher);
-
-    sc.close();
-}
-
- public static int max (int x, int y , int z){
-    int aux;
-
-    if (x>y && x>z) {
-        aux = x;    
-    }else if (y > z){
-        aux = y;
-    } else {
-         aux =z;
+        if (a > b) {
+            maior = a;
+        } else {
+            maior = b;
         }
-        return aux;
-    } 
-    
-    public static void showResult(int value){
-        System.out.println("Higher" + value);
+
+        return maior;
     }
 
 }
