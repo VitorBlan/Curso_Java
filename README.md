@@ -4,6 +4,15 @@ Repositório com os exercícios e materiais do curso **Java COMPLETO** (Java e O
 
 <img width="800" height="470" alt="image" src="https://github.com/user-attachments/assets/97212060-274a-4461-b551-04ff0c170f31" />
 
+## Progresso
+
+| Seção | Tema | Aulas |
+| --- | --- | --- |
+| 5 | Estrutura condicional | 40 a 47 |
+| 6 | Estruturas repetitivas | 50 a 62 |
+| 7 | Outros tópicos básicos | 63 a 68 |
+| 8 | Classes, atributos, métodos e membros estáticos | 69 a 80 |
+| 9 | Construtores, palavra `this`, sobrecarga e encapsulamento | 81 a 91 (em andamento) |
 
 ## Organização
 
@@ -54,26 +63,69 @@ src/
 │   └── aula61_exercicios_iniciantes_parte4/
 │       └── 02-exercicios4-estrutura-for.pdf
 │
-└── section_7/                                <- Outros tópicos básicos
-    └── aula63_material_de_apoio/
-        └── 07-outros-topicos-basicos.pdf
+├── section_7/                                <- Outros tópicos básicos
+│   ├── aula63_material_de_apoio/
+│   │   └── 07-outros-topicos-basicos.pdf
+│   ├── aula64_restricoes_convencoes_nomes/
+│   │   └── Restricao.java
+│   ├── aula65_operadores_bitwise/
+│   │   └── OperadoresBitwise.java
+│   ├── aula66_funcoes_string/
+│   │   └── Funcao1.java
+│   └── aula68_funcoes_sintaxe/
+│       ├── funcao.java
+│       └── funcao2.java
+│
+├── section_8/                                <- Classes, atributos, métodos, membros estáticos
+│   ├── aula69_visao_geral_do_capitulo/
+│   │   └── Aula69.java
+│   ├── aula70_material_de_apoio/
+│   │   ├── 03-classes-atributos-membros-staticos(para-anotacoes).pdf
+│   │   └── 03-classes-atributos-membros-staticos-2.pdf
+│   ├── aula71_problema_sem_orientacao_a_objetos/
+│   │   └── aula71.java
+│   ├── aula72_classe_com_tres_atributos_triangulo/
+│   │   └── Triangle.java
+│   ├── aula73_metodo_reaproveitamento_delegacao/
+│   │   └── aula73.java
+│   ├── aula74_segundo_problema_exemplo/
+│   │   ├── Produto.java
+│   │   └── Programa.java
+│   ├── aula77_exercicios_de_fixacao/
+│   │   ├── 03-correcao-exercicios-fixacao.pdf
+│   │   ├── exercicio2.java
+│   │   └── exercicio2_class.java
+│   ├── aula78_membros_estaticos_parte1/
+│   │   ├── Aula78.java
+│   │   ├── calcular.java
+│   │   └── comstatic/
+│   │       ├── Aula78.java
+│   │       └── calcular.java
+│   └── aula79_membros_estaticos_parte2/
+│       ├── Calcular.java
+│       └── Exercicio2.java
+│
+└── section_9/                                <- Construtores, this, sobrecarga, encapsulamento
+    ├── aula81_visao_geral_do_capitulo/
+    ├── aula82_material_de_apoio/
+    ├── aula83_construtores/
+    ├── aula84_palavra_this/
+    ├── aula85_sobrecarga/
+    ├── aula86_encapsulamento/
+    ├── aula87_gerando_construtores_getters_setters/
+    ├── aula88_modificadores_de_acesso/
+    ├── aula89_exercicio_de_fixacao/
+    ├── aula90_correcao_exercicio_parte1/
+    └── aula91_correcao_exercicio_parte2/
 ```
 
 Os arquivos compilados (`.class`) são gerados automaticamente em `bin/`, espelhando a mesma estrutura de `src/`.
 
 ## Como rodar
 
-<<<<<<< HEAD
 Projeto Java simples do VS Code (extensão _Extension Pack for Java_):
-=======
-Projeto Java simples do VS Code (extensão *Extension Pack for Java*):
->>>>>>> e10b541bf1b3854f00fed329bf8cbd9aabf2ea41
 
 1. Abra a pasta no VS Code.
 2. Abra o arquivo `.java` da aula e clique em **Run** acima do `main` (ou `F5` para depurar).
 
 As configurações do projeto ficam em `.vscode/settings.json`.
-<<<<<<< HEAD
-=======
-
->>>>>>> e10b541bf1b3854f00fed329bf8cbd9aabf2ea41

@@ -19,12 +19,12 @@ public static void main(String[] args) {
     y = new Triangle();
 
 
-    System.out.println("Enter thmeasures of triangle X:");
+    System.out.println("Digite as medidas do triângulo X:");
     x.a =sc.nextDouble();
     x.b= sc.nextDouble();
     x.c= sc.nextDouble();
 
-    System.out.println("Enter the measure of triangle Y");
+    System.out.println("Digite as medidas do triângulo Y:");
     y.a = sc.nextDouble();
     y.b= sc.nextDouble();
     y.c= sc.nextDouble();
@@ -38,14 +38,14 @@ public static void main(String[] args) {
 
     
 
-    System.out.printf("triangle X area : %.4f%n",areaX);
-    System.out.printf("triangle Y area : %.4f%n",areaY);
+    System.out.printf("Área do triângulo X: %.4f%n",areaX);
+    System.out.printf("Área do triângulo Y: %.4f%n",areaY);
 
     if (areaX > areaY) {
-        System.out.println("Langer area : X");
+        System.out.println("Maior área: X");
 
     } else {
-        System.out.println("large area: X");
+        System.out.println("Maior área: Y");
 
     }
 

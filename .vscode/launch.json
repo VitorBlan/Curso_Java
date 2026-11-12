@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "aula78",
+      "request": "launch",
+      "mainClass": "section_8.aula78_membros_estaticos_parte1.aula78",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
+      "name": "Aula78",
+      "request": "launch",
+      "mainClass": "section_8.aula78_membros_estaticos_parte1.Aula78",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
+      "name": "exercicio2",
+      "request": "launch",
+      "mainClass": "section_8.aula77_exercicios_de_fixacao.exercicio2",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
+      "name": "Programa",
+      "request": "launch",
+      "mainClass": "section_8.aula74_segundo_problema_exemplo.Programa",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
       "name": "aula71",
       "request": "launch",
       "mainClass": "section_8.aula71_problema_sem_orientacao_a_objetos.aula71",
