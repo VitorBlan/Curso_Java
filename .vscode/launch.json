@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Aula83",
+      "request": "launch",
+      "mainClass": "section_9.aula83_construtores.Aula83",
+      "projectName": "Curso_Java_6a853f00"
+    },
+    {
+      "type": "java",
       "name": "aula78",
       "request": "launch",
       "mainClass": "section_8.aula78_membros_estaticos_parte1.aula78",

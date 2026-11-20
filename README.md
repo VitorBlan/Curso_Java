@@ -108,6 +108,8 @@ src/
 └── section_9/                                <- Construtores, this, sobrecarga, encapsulamento
     ├── aula81_visao_geral_do_capitulo/
     ├── aula82_material_de_apoio/
+    │   ├── 04-construtores-this-sobrecarga-encapsulamento(espaco-para-anotacoes).pdf
+    │   └── 04-construtores-this-sobrecarga-encapsulamento-2.pdf
     ├── aula83_construtores/
     ├── aula84_palavra_this/
     ├── aula85_sobrecarga/
